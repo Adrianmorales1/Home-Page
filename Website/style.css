@@ -1,0 +1,35 @@
+body {
+    background-color:seashell;
+    margin:0px;
+}
+
+#navbar {
+    height:75px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    width:40%;
+    font-size:50px;
+    font-family:monospace;
+    color:salmon;
+
+}
+
+.navbarbtn {
+    width:60%;
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    color: seashell;
+    background-color: salmon;
+    border: 2px solid seashell;
+    box-shadow: 2px 2px seashell;
+    font-family: monospace;
+}
