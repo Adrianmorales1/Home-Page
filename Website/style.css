@@ -7,23 +7,22 @@ body {
     height:75px;
     background-color: lightblue;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .title{
-    width:40%;
     font-size:50px;
+    flex:2;
     font-family:monospace;
     color:salmon;
-
+    margin:15px;
 }
 
 .navbarbtn {
-    width:60%;
+    flex:8;
     list-style-type: none;
     display:flex;
-    align-items: center;
-    justify-content: space-between;
+    margin:15px;
 }
 
 button {
@@ -31,5 +30,7 @@ button {
     background-color: salmon;
     border: 2px solid seashell;
     box-shadow: 2px 2px seashell;
+    padding:5px;
     font-family: monospace;
+    margin:5px;
 }
